@@ -45,12 +45,7 @@
               "ai-tools/claude-code",
               "ai-tools/windsurf"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
+          },
           {
             "group": "API documentation",
             "pages": [
