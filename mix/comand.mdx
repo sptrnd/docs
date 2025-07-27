@@ -1,0 +1,167 @@
+---
+title: "Daftar Command Survival Mix"
+description: "Panduan lengkap command untuk pemain di dunia Survival Mix. Kuasai semua fitur server!"
+---
+
+Selamat datang di Survival Mix\! Dunia ini penuh dengan fitur-fitur unik yang bisa kamu akses melalui berbagai command. Gunakan panduan ini untuk memaksimalkan petualanganmu dan memanfaatkan semua yang ditawarkan server.
+
+---
+
+## Ekonomi & Jual Beli
+
+Atur keuangan, berdagang dengan pemain lain, dan jadilah yang terkaya di server\!
+
+<AccordionGroup>
+  <Accordion title="Command Dasar Ekonomi" icon="coins">
+    - `/pay <nama> <jumlah>`: Mengirim uang ke pemain lain.
+    - `/balance` atau `/bal`: Melihat jumlah uangmu saat ini.
+    - `/balancetop` atau `/baltop`: Melihat daftar pemain terkaya.
+    - `/shop`: Membuka toko server melalui antarmuka grafis (GUI).
+    - `/bank`: Mengakses rekening bank virtualmu untuk menyimpan uang.
+    - `/points`: Mengecek jumlah poin spesial yang kamu miliki.
+  </Accordion>
+  <Accordion title="Lelang & Jual Barang (Auction House)" icon="gavel">
+    - `/ah`: Membuka _Auction House_ untuk membeli atau menjual item.
+    - `/ah sell <harga>`: Menjual item yang ada di tanganmu ke _Auction House_.
+  </Accordion>
+  <Accordion title="Adu Nasib (Coinflip)" icon="gem">
+    - `/coinflip` atau `/cf`: Membuka menu Coinflip untuk bertaruh uang melawan pemain lain.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Klaim Tanah & Keamanan
+
+Amankan properti dan barang-barang berhargamu dari pemain lain.
+
+<AccordionGroup>
+  <Accordion title="Command Klaim Tanah (RedProtect)" icon="map-pin">
+    Untuk mengklaim, kamu memerlukan _Golden Shovel_.
+
+    - `/rp claim <nama_region>`: Membuat klaim baru di area yang sudah kamu tandai.
+    - `/rp trust <nama>`: Memberi izin penuh kepada pemain lain di klaim-mu.
+    - `/rp container <nama>`: Memberi izin pemain lain untuk membuka peti/furnace, dll.
+    - `/rp access <nama>`: Memberi izin pemain lain untuk menggunakan tombol/tuas.
+    - `/rp untrust <nama>`: Mencabut semua izin dari pemain di klaim-mu.
+    - `/rp info`: Melihat informasi detail tentang klaim tempat kamu berdiri.
+    - `/rp list`: Menampilkan daftar semua klaim yang kamu miliki.
+    - `/rp abandon`: Menghapus klaim tempat kamu berdiri.
+    - `/rp flag <nama_flag> <value>`: Mengatur peraturan spesifik di klaim (misal: `/rp flag pvp deny`).
+
+    <Tip>
+      Gunakan Golden Shovel untuk menandai dua sudut diagonal dari area yang ingin kamu klaim.
+    </Tip>
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Teleportasi & Navigasi
+
+Jelajahi dunia dengan cepat tanpa harus berjalan kaki.
+
+<AccordionGroup>
+  <Accordion title="Teleportasi Dasar" icon="location-dot">
+    - `/spawn`: Kembali ke titik awal server (spawn).
+    - `/tpa <nama>`: Mengirim permintaan teleportasi ke pemain lain.
+    - `/tpaccept`: Menerima permintaan teleportasi dari pemain lain.
+    - `/tpdeny`: Menolak permintaan teleportasi dari pemain lain.
+    - `/rtp`: Teleportasi acak ke lokasi liar di dunia untuk memulai petualangan baru.
+  </Accordion>
+  <Accordion title="Home (Rumah Pribadi)" icon="house">
+    - `/sethome <nama_rumah>`: Menetapkan lokasi saat ini sebagai rumah.
+    - `/home <nama_rumah>`: Teleportasi ke rumah yang sudah kamu set.
+    - `/delhome <nama_rumah>`: Menghapus rumah yang sudah kamu set.
+    - `/homes`: Melihat daftar semua rumah yang kamu miliki.
+  </Accordion>
+  <Accordion title="Player Warps (Warp Pemain)" icon="signs-post">
+    - `/pwarp <nama_warp>`: Teleportasi ke warp milik pemain lain.
+    - `/setpwarp <nama_warp>`: Membuat warp publik di lokasimu (membutuhkan biaya).
+    - `/delpwarp <nama_warp>`: Menghapus warp milikmu.
+    - `/pwarps`: Melihat daftar semua warp yang tersedia.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Pekerjaan, Skill & Level
+
+Tingkatkan kemampuan karaktermu dan dapatkan hadiah dengan bekerja.
+
+<AccordionGroup>
+  <Accordion title="Pekerjaan (Jobs)" icon="briefcase">
+    - `/jobs`: Untuk melihat semua menu Jobs yang tersedia.
+  </Accordion>
+  <Accordion title="Skill (MMOCore & AuraSkills)" icon="star">
+    - `/skills`: Membuka menu skill untuk melihat dan meningkatkan kemampuan.
+    - `/class`: Memilih atau melihat class karaktermu.
+    - `/stats`: Melihat statistik detail karakter (kekuatan, defense, dll).
+  </Accordion>
+  <Accordion title="Level (CyberLevels)" icon="arrow-up-wide-short">
+    - `/level`: Melihat level dan progresmu saat ini.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Klan & Komunitas
+
+Bentuk aliansi, bertarung bersama, dan berinteraksi dengan pemain lain.
+
+<AccordionGroup>
+  <Accordion title="Klan (SimpleClans)" icon="users">
+    - `/clan create <tag> <nama_klan>`: Membuat klan baru.
+    - `/clan invite <nama_pemain>`: Mengundang pemain ke klan.
+    - `/clan join <tag_klan>`: Menerima undangan klan.
+    - `/clan leave`: Keluar dari klan saat ini.
+    - `/clan list`: Melihat daftar semua klan.
+    - `/clan sethome`: Menetapkan markas klan.
+    - `/clan home`: Teleportasi ke markas klan.
+    - `/.`: Beralih ke mode chat klan.
+  </Accordion>
+  <Accordion title="Party (MMOCore)" icon="user-group">
+    - `/party`: Untuk melihat semua opsi yang tersedia.
+  </Accordion>
+  <Accordion title="Interaksi Sosial" icon="comments">
+    - `/msg <nama> <pesan>`: Mengirim pesan pribadi ke pemain lain.
+    - `/r <pesan>`: Membalas pesan pribadi terakhir.
+    - `/ignore <nama>`: Mengabaikan chat dari pemain tertentu.
+    - `/sit`: Duduk di manapun.
+    - `/lay`: Berbaring di manapun.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Kosmetik & Kustomisasi
+
+Tampil beda dari pemain lain dengan berbagai efek dan hiasan.
+
+<AccordionGroup>
+  <Accordion title="Tampilan & Efek" icon="wand-magic-sparkles">
+    - `/cosmetics`: Membuka menu kosmetik (topi, partikel, pet, dll).
+    - `/tags`: Membuka menu untuk memilih gelar (tag) di depan nama.
+    - `/chatcolor`: Memilih warna untuk tulisanmu di chat.
+    - `/skin <nama/url>`: Mengubah skin karaktermu.
+  </Accordion>
+</AccordionGroup>
+
+## Fitur Lainnya
+
+Command untuk fitur-fitur unik lainnya di Survival Mix.
+
+<AccordionGroup>
+  <Accordion title="Fitur Tambahan" icon="puzzle-piece">
+    - `/backpack` atau `/bp`: Membuka tas punggung virtual untuk penyimpanan ekstra.
+    - `/vote`: Menampilkan daftar situs untuk vote server dan mendapatkan hadiah.
+    - `/rewards` atau `/claim`: Mengklaim hadiah dari vote atau event lainnya.
+    - `/quests`: Membuka papan quest untuk melihat misi yang tersedia.
+    - `/pvp`: Mengaktifkan atau menonaktifkan status PvP-mu.
+    - `/afk`: Memberitahu pemain lain bahwa kamu sedang tidak di depan komputer.
+  </Accordion>
+</AccordionGroup>
+
+<Note>
+  ❓ **Command tidak berfungsi?** Beberapa command mungkin memiliki persyaratan level, uang, atau izin tertentu. Jika masih ada masalah, hubungi staff di server atau melalui Discord.
+</Note>
